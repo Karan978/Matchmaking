@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matchmaking</title>
+</head>
+<body>
+    <h1>Matchmaking</h1>
+        <form method="POST" action="/text">
+            <label for="exampleInputEmail1">What is your Gender?</label>
+            <br>
+            <input type="checkbox" value="Male" name="mycheckbox">Male
+            <input type="checkbox" value="Female" name="mycheckbox">Female
+            <br>
+            <br>
+            <label for="exampleInputEmail1">When it comes to love</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">Opposite attracts
+            <input type="checkbox" value=1 name="mycheckbox">Similarities make things smoother
+            <br>
+            <br>
+            <label for="exampleInputEmail1">When it comes to love</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">If it’s right, it’s easy
+            <input type="checkbox" value=1 name="mycheckbox">It always requires work
+            <br>
+            <br>
+            <label for="exampleInputEmail1">When it comes to relationships</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">Communication is key
+            <input type="checkbox" value=1 name="mycheckbox">It's complicated
+            <br>
+            <br>
+            <label for="exampleInputEmail1">Predictability always brings comfort</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">Yes
+            <input type="checkbox" value=1 name="mycheckbox">No
+            <br>
+            <br>
+            <label for="exampleInputEmail1">Which is more important</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">Work life balance
+            <input type="checkbox" value=1 name="mycheckbox">Success
+            <br>
+            <br>
+            <label for="exampleInputEmail1">When trust is broken</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">The relationship is over
+            <input type="checkbox" value=1 name="mycheckbox">There might be a chance
+            <br>
+            <br>
+            <label for="exampleInputEmail1">My close friend and family would say</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">I’m a social butterfly
+            <input type="checkbox" value=1 name="mycheckbox">I’m bit reserved or even shy
+            <br>
+            <br>
+            <label for="exampleInputEmail1">My close friend and family would say</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">I’m an open book
+            <input type="checkbox" value=1 name="mycheckbox">It takes time to know about me
+            <br>
+            <br>
+            <label for="exampleInputEmail1">My close friend and family would say</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">I’m opinionated and strong-willed
+            <input type="checkbox" value=1 name="mycheckbox">I’m easier going and laid-back  
+            <br>
+            <br>
+            <label for="exampleInputEmail1">Having common interests</label>
+            <br>
+            <input type="checkbox" value=0 name="mycheckbox">Can make or break a relationship
+            <input type="checkbox" value=1 name="mycheckbox">Dosent matter much
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+        <br>
+        <br>
+        {{ prediction_text }}
+</body>
+</html>
